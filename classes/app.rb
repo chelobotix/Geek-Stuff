@@ -11,5 +11,4 @@ class App
     puts str
     gets.chomp
   end
-
 end

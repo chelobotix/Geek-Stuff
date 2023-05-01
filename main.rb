@@ -2,7 +2,6 @@ require_relative './classes/option'
 require_relative './classes/storage'
 
 class Main
-
   attr_reader :storage
 
   def initialize
@@ -49,4 +48,4 @@ class Main
   end
 end
 
-show = Main.new
+Main.new

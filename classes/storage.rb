@@ -8,7 +8,7 @@ class Storage
     @game = []
     @book = []
     @music = []
-    dir = File.dirname(__FILE__).slice(0...-7) << "storage/"
+    dir = File.dirname(__FILE__).slice(0...-7) << 'storage/'
     file_game = 'game.json'
     file_book = 'book.json'
     file_music = 'music.json'
