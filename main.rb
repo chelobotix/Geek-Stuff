@@ -1,8 +1,19 @@
-require_relative 'option'
+require_relative './classes/option'
+require_relative './classes/storage'
 
 class Main
+  attr_reader :storage
+
   def initialize
-    @option = Option.new
+    @storage = Storage.new
+    @program = true
+    acquire_data
+    @option = Option.new(self)
+    show_menu
+  end
+
+  def acquire_data
+    @storage.acquire_data
   end
 
   def show_menu
@@ -19,16 +30,22 @@ class Main
       10 Add a game
       11 EXIT
     "
-    begin
-      op = Integer(gets.chomp)
-      raise ArgumentError, 'Enter a number between 1 and 11' unless (1...11).include?(op)
+    select_option
+  end
 
-      @option.option_selector(op)
-    rescue ArgumentError
-      puts 'Invalid input. Please enter a number from 1 to 11'
+  def select_option()
+    while @program
+      begin
+        op = Integer(gets.chomp)
+        raise ArgumentError, 'Enter a number between 1 and 11' unless (1...11).include?(op)
+
+        @option.option_selector(op)
+        show_menu
+      rescue ArgumentError
+        puts 'Invalid input. Please enter a number from 1 to 11'
+      end
     end
   end
 end
 
-show = Main.new
-show.show_menu
+Main.new

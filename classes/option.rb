@@ -1,4 +1,13 @@
+require_relative 'app'
+
 class Option
+  attr_reader :main
+
+  def initialize(main)
+    @main = main
+    @app = App.new(self)
+  end
+
   def option_selector(_option)
     option_map = {
       '1' => 'list_all_books',
