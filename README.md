@@ -1,5 +1,9 @@
 <a name="readme-top"></a>
 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/65084923/231513445-05c342c5-a239-46b8-bcb8-78d3cd89421d.png" alt="logo" width="100"  height="auto" />
+  <img src="https://user-images.githubusercontent.com/65084923/235511416-c4421b58-3fb6-4668-b5ba-ae516dc2c50e.jpg" alt="logo" width="100"  height="auto" />
+  <br/>
 <!--
 HOW TO USE:
 This is an example of how you may give instructions on setting up your project locally.
@@ -28,7 +32,7 @@ After you're finished please remove all the comments and instructions!
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
 
-  <h3><b>Enumerable</b></h3>
+  <h3><b>Geek Catalogue</b></h3>
 
 </div>
 
