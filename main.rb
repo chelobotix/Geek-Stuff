@@ -24,11 +24,10 @@ class Main
       4  List all genres
       5  List all labels
       6  List all authors
-      7  List all sources
-      8  Add a book
-      9  Add a music album
-      10 Add a game
-      11 EXIT
+      7  Add a book
+      8  Add a music album
+      9 Add a game
+      10 EXIT
     "
     select_option
   end
@@ -37,12 +36,12 @@ class Main
     while @program
       begin
         op = Integer(gets.chomp)
-        raise ArgumentError, 'Enter a number between 1 and 11' unless (1...11).include?(op)
+        raise ArgumentError unless (1...11).include?(op)
 
         @option.option_selector(op)
         show_menu
       rescue ArgumentError
-        puts 'Invalid input. Please enter a number from 1 to 11'
+        puts 'Invalid input. Please enter a number from 1 to 10'
       end
     end
   end
