@@ -5,7 +5,6 @@ require_relative 'book'
 require_relative 'music'
 require_relative 'game'
 
-
 class App
   def initialize(option)
     @option = option
