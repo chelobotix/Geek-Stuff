@@ -37,6 +37,7 @@ class Main
     while @program
       begin
         op = Integer(gets.chomp)
+        (puts 'see you later'; exit) if op == 11
         raise ArgumentError, 'Enter a number between 1 and 11' unless (1...11).include?(op)
 
         @option.option_selector(op)
