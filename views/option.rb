@@ -5,6 +5,7 @@ class Option
   def initialize
     @music_albums = MusicAlbum.new
   end
+
   def option_selector(option)
     option_map = {
       1 => 'list_all_books',
@@ -28,7 +29,9 @@ class Option
       puts 'There are not Music albums yet'
       return
     end
-    @music_albums.list.each { |album| puts "ID: #{album['id']}) Date: #{album['public_date']} On Spotify: #{album['on_spotify']}"}
+    @music_albums.list.each do |album|
+      puts "ID: #{album['id']}) Date: #{album['public_date']} On Spotify: #{album['on_spotify']}"
+    end
   end
 
   def list_all_games; end
