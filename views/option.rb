@@ -49,18 +49,11 @@ class Option
       puts 'There are not authors yet'
       return
     end
-
     puts '----- Games -----'
     @games.list.each do |game|
-      author_name = @authors.list.map do |author|
-        game['author_id'] == author['id'] ? "#{author['first_name']} #{author['last_name']}" : nil
-      end.find { |name| name } || 'Author not found or has been removed'
-
-      genre_name = @genres.list.map do |genre|
-        game['genre_id'] == genre['id'] ? (genre['name']).to_s : nil
-      end.find { |name| name } || 'Genre not found or has been removed'
-
-      puts "[#{game['id']}] Multiplayer: #{game['multiplayer']}, Author:#{author_name}, Genre: #{genre_name}"
+      puts "[#{game['id']}] Multiplayer: #{game['multiplayer']},
+      Author:#{get_author_name(game)},
+      Genre: #{get_genre_name(game)}"
     end
   end
 
@@ -91,4 +84,20 @@ class Option
   end
 
   def add_a_game; end
+
+  private
+
+  def get_author_name(game)
+    aux = @authors.list.map do |author|
+      game['author_id'] == author['id'] ? "#{author['first_name']} #{author['last_name']}" : nil
+    end
+    aux.find { |name| name } || 'Author not found or has been removed'
+  end
+
+  def get_genre_name(game)
+    aux = @genres.list.map do |genre|
+      game['genre_id'] == genre['id'] ? (genre['name']).to_s : nil
+    end
+    aux.find { |name| name } || 'Genre not found or has been removed'
+  end
 end
