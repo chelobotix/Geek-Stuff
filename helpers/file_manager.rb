@@ -7,7 +7,7 @@ class FileManager
   end
 
   def reader
-    path = File.join(__dir__, '../data', "#{@filename}.json")
+    path = File.join(__dir__, '../storage', "#{@filename}.json")
     return [] unless File.exist?(path)
 
     data = JSON.parse(File.read(path))
@@ -15,9 +15,9 @@ class FileManager
   end
 
   def writer(new_data)
-    path = File.join(__dir__, '../data', "#{@filename}.json")
+    path = File.join(__dir__, '../storage', "#{@filename}.json")
 
-    FileUtils.mkdir_p('data')
+    FileUtils.mkdir_p('storage')
 
     data = data_joinner(new_data)
 
