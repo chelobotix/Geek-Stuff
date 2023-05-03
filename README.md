@@ -2,7 +2,8 @@
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/65084923/231513445-05c342c5-a239-46b8-bcb8-78d3cd89421d.png" alt="logo" width="100"  height="auto" />
-  <img src="https://user-images.githubusercontent.com/65084923/235511416-c4421b58-3fb6-4668-b5ba-ae516dc2c50e.jpg" alt="logo" width="100"  height="auto" />
+<br>
+  <img src="https://user-images.githubusercontent.com/65084923/235511416-c4421b58-3fb6-4668-b5ba-ae516dc2c50e.jpg" alt="logo" width="150"  height="auto" />
   <br/>
 <!--
 HOW TO USE:
@@ -11,6 +12,7 @@ This is an example of how you may give instructions on setting up your project l
 Modify this file to match your project and remove sections that don't apply.
 
 REQUIRED SECTIONS:
+
 - Table of Contents
 - About the Project
   - Built With
@@ -24,6 +26,7 @@ REQUIRED SECTIONS:
 - License
 
 OPTIONAL SECTIONS:
+
 - FAQ
 
 After you're finished please remove all the comments and instructions!
@@ -59,9 +62,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 School Library <a name="about-project"></a>
+# 📖 Geek Stuff <a name="about-project"></a>
 
-Imagine that you are the librarian of OOP University, and you need a tool to record what books are in the library and who borrows them. The app that you will create will allow you to:
+If you are a Geek, you will freak out with the catalogue that will give you access to all your collections of Books, Music and Games.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,9 +78,9 @@ Imagine that you are the librarian of OOP University, and you need a tool to rec
 
 ### Key Features <a name="key-features"></a>
 
--Add new students or teachers.
--Add new books.
--Save records of who borrowed a given book and when.
+-Basic UI.
+-Add Books, Music and Games to the catalogue.
+-SQL schema.
 -SOLID principles of OOP.
 -File Storage
 -RSpec Testing
@@ -96,74 +99,33 @@ Imagine that you are the librarian of OOP University, and you need a tool to rec
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and use as a template, follow these steps.
 
-### Prerequisites
-
-In order to run this project you need:
-
-<ul>
-    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
-  </ul>
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
-### Setup
+### Clone <a name="clone"></a>
 
 Clone this repository to your desired folder:
 
-<ul>
-<li>cd my-folder</li>
-<li>git clone git@github.com:gealsanchez/school-library.git</li>
-</ul>
-
-<!--
-Example commands:
-
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  https://github.com/chelobotix/Geek-Stuff.git
 ```
---->
 
-### Install
+To install the necessary dependencies, you should run:
 
-Install this project with:
+### `gem install bundler`
 
-<ul>
-<li>bundle install</li>
-</ul>
+### `bundler install`
 
-<!--
-Example command:
+To run the app just type:
 
-```sh
-  cd my-project
-  gem install
-```
---->
+### `ruby main.rb`
 
-### Usage
+## 🤖 Available Scripts <a name="available-scripts"></a>
 
-To run the project, execute the following command:
+In the project directory, you can run:
 
-<ul>
-<li>ruby *.rb</li>
-</ul>
+### `rubocop -A`
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+To fix all Linter error automatically
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,6 +139,15 @@ Example command:
 - Twitter: [@twitterhandle](https://twitter.com/gealsanchez)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/gerson-sanchez-88309b57/)
 
+👤 **Felipe Haybar**
+
+: Felipe Haybar
+
+🇧🇴 Bolivia 💓
+
+- GitHub: [@feliverse](https://github.com/Feliverse)
+- Linkedin: [Felipe Haybar](https://www.linkedin.com/in/felipehaybar/)
+
 👤 **Author2**
 
 : Marcelo Alarcon Barrenechea
@@ -185,7 +156,6 @@ Example command:
 
 - GitHub: [@chelobotix](https://github.com/chelobotix)
 - Linkedin: [Marcelo Alarcon](https://www.linkedin.com/in/marceloalarconb/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -226,6 +196,6 @@ I would like to thank the Microverse team for their invaluable resources
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/gealsanchez/school-library/blob/dev/LICENSE) licensed.
+This project is [MIT](href="./LICENSE") licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
