@@ -5,7 +5,6 @@ describe Book do
   before :each do
     @label = Label.new 'Rome War', 'Blue'
     @book = Book.new '01/05/2018', 'Good', 'Lewandosky Editorial'
-
   end
   context 'When testing the Label class' do
     it 'Add Book to Label' do

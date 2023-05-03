@@ -9,9 +9,8 @@ describe Book do
     @label = Label.new 'Rome War', 'Blue'
     @author = Author.new 'John', 'Smith'
     @genre = Genre.new 'Adventure'
-
   end
-  context 'When testing the Book class' do
+  context 'When testing the Book class section 1' do
     it 'Book Object must be returned' do
       expect(@book).to be_an_instance_of Book
     end
@@ -37,7 +36,9 @@ describe Book do
       expect(@book.genre.name).to eql('Adventure')
       expect(@genre.items[0]).to be_an_instance_of Book
     end
+  end
 
+  context 'When testing the Book class section 2' do
     it 'Add Label to Book' do
       @book.add_label = @label
       expect(@book.label.title).to eql('Rome War')
