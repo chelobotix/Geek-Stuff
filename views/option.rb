@@ -1,9 +1,14 @@
+require_relative 'music_custom_options'
+
 require_relative '../app'
+
 require_relative '../controllers/music'
+require_relative '../controllers/genre'
 
 class Option
   def initialize
-    @music_albums = MusicAlbum.new
+    @music_albums = MusicController.new
+    @genres = GenreController.new
   end
 
   def option_selector(option)
@@ -26,17 +31,25 @@ class Option
 
   def list_all_music_albums
     if @music_albums.list.empty?
-      puts 'There are not Music albums yet'
+      puts 'There are not music albums yet'
       return
     end
+    puts '----- Music albums -----'
     @music_albums.list.each do |album|
-      puts "ID: #{album['id']}) Date: #{album['public_date']} On Spotify: #{album['on_spotify']}"
+      puts "[#{album['id']}] Date: #{album['public_date']}, On Spotify: #{album['on_spotify']}"
     end
   end
 
   def list_all_games; end
 
-  def list_all_genres; end
+  def list_all_genres
+    if @genres.list.empty?
+      puts 'There are not genders yet'
+      return
+    end
+    puts '----- Genders -----'
+    @genres.list.each { |genre| puts "[#{genre['id']}] Name: #{genre['name']}" }
+  end
 
   def list_all_labels; end
 
@@ -46,7 +59,9 @@ class Option
 
   def add_a_book; end
 
-  def add_a_music_album; end
+  def add_a_music_album
+    MusicCustomOptions.new.show
+  end
 
   def add_a_game; end
 end

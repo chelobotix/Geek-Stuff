@@ -1,6 +1,6 @@
 require_relative '../helpers/data_manager'
-class MusicController < DataManager
+class GenreController < DataManager
   def initialize
-    super('music')
+    super('genre')
   end
 end
