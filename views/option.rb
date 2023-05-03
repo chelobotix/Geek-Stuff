@@ -1,13 +1,10 @@
-require_relative 'app'
+require_relative '../app'
+require_relative '../controllers/music'
 
 class Option
-  attr_reader :main
-
-  def initialize(main)
-    @main = main
-    @app = App.new(self)
+  def initialize
+    @music_albums = MusicAlbum.new
   end
-
   def option_selector(option)
     option_map = {
       1 => 'list_all_books',
@@ -21,12 +18,18 @@ class Option
       9 => 'add_a_game',
       10 => 'exit'
     }
-    send(option_map[option.to_i])
+    send(option_map[option])
   end
 
   def list_all_books; end
 
-  def list_all_music_albums; end
+  def list_all_music_albums
+    if @music_albums.list.empty?
+      puts 'There are not Music albums yet'
+      return
+    end
+    @music_albums.list.each { |album| puts "ID: #{album['id']}) Date: #{album['public_date']} On Spotify: #{album['on_spotify']}"}
+  end
 
   def list_all_games; end
 

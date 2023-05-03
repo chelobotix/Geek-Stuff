@@ -1,9 +1,9 @@
-require_relative 'label'
-require_relative 'author'
-require_relative 'genre'
-require_relative 'book'
-require_relative 'music'
-require_relative 'game'
+# require_relative 'label'
+# require_relative 'author'
+# require_relative 'genre'
+# require_relative 'book'
+# require_relative 'music'
+# require_relative 'game'
 
 class App
   def initialize(option)
