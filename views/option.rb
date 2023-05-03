@@ -4,11 +4,15 @@ require_relative '../app'
 
 require_relative '../controllers/music'
 require_relative '../controllers/genre'
+require_relative '../controllers/author'
+require_relative '../controllers/game'
 
 class Option
   def initialize
     @music_albums = MusicController.new
     @genres = GenreController.new
+    @authors = AuthorController.new
+    @games = GameController.new
   end
 
   def option_selector(option)
@@ -40,7 +44,25 @@ class Option
     end
   end
 
-  def list_all_games; end
+  def list_all_games
+    if @games.list.empty?
+      puts 'There are not authors yet'
+      return
+    end
+
+    puts '----- Games -----'
+    @games.list.each do |game|
+      author_name = @authors.list.map do |author|
+        game['author_id'] == author['id'] ? "#{author['first_name']} #{author['last_name']}" : nil
+      end.find { |name| name } || 'Author not found or has been removed'
+
+      genre_name = @genres.list.map do |genre|
+        game['genre_id'] == genre['id'] ? (genre['name']).to_s : nil
+      end.find { |name| name } || 'Genre not found or has been removed'
+
+      puts "[#{game['id']}] Multiplayer: #{game['multiplayer']}, Author:#{author_name}, Genre: #{genre_name}"
+    end
+  end
 
   def list_all_genres
     if @genres.list.empty?
@@ -53,9 +75,14 @@ class Option
 
   def list_all_labels; end
 
-  def list_all_authors; end
-
-  def list_all_sources; end
+  def list_all_authors
+    if @authors.list.empty?
+      puts 'There are not authors yet'
+      return
+    end
+    puts '----- Authors -----'
+    @authors.list.each { |author| puts "[#{author['id']}] Name: #{author['first_name']} #{author['last_name']}" }
+  end
 
   def add_a_book; end
 

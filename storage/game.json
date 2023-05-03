@@ -1,1 +1,32 @@
-{"game" : []}
+[
+  {
+      "id": 923,
+      "publish_date": "2001/01/01",
+      "archived": false,
+      "multiplayer": true,
+      "last_paleyd_at": "2022/01/01",
+      "label_id": 1,
+      "genre_id": 201,
+      "author_id": 260
+  },
+  {
+      "id": 256,
+      "publish_date": "2001/01/01",
+      "archived": true,
+      "multiplayer": false,
+      "last_paleyd_at": "2022/01/01",
+      "label_id": 1,
+      "genre_id": 12,
+      "author_id": 26
+  },
+  {
+      "id": 256,
+      "publish_date": "2001/01/01",
+      "archived": true,
+      "multiplayer": true,
+      "last_paleyd_at": "2022/01/01",
+      "label_id": 1,
+      "genre_id": 586,
+      "author_id": 102
+  }
+]
