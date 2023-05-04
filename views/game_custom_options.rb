@@ -9,7 +9,6 @@ require_relative '../classes/game'
 class GameCustomOptions
   def show
     validator = Validators.new
-    validator.validate_empty_all
 
     print 'Enter the public date [YYYY/MM/dd]: '
     public_date = gets.chomp

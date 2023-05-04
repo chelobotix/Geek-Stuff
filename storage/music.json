@@ -1,66 +1,10 @@
 [
   {
-    "id": 611,
-    "public_date": "12/12/2022",
-    "on_spotify": true,
-    "label_id": 1,
-    "genre_id": 12,
-    "author_id": 26
-  },
-  {
-    "id": 136,
-    "public_date": "01/12/2023",
-    "on_spotify": true,
-    "label_id": 1,
-    "genre_id": 12,
-    "author_id": 26
-  },
-  {
-    "id": 375,
-    "public_date": "12/05/2001",
-    "on_spotify": true,
-    "label_id": 1,
-    "genre_id": 12,
-    "author_id": 26
-  },
-  {
-    "id": 97,
-    "public_date": "12/12/2022",
+    "id": 594,
+    "public_date": "12/12/2018",
     "on_spotify": true,
     "label_id": 900,
     "genre_id": 12,
-    "author_id": 102
-  },
-  {
-    "id": 275,
-    "public_date": "01/01/2000",
-    "on_spotify": true,
-    "label_id": 900,
-    "genre_id": 12,
-    "author_id": 102
-  },
-  {
-    "id": 315,
-    "public_date": "01/01/1999",
-    "on_spotify": true,
-    "label_id": 811,
-    "genre_id": 12,
-    "author_id": 260
-  },
-  {
-    "id": 134,
-    "public_date": "12/12/2002",
-    "on_spotify": true,
-    "label_id": 811,
-    "genre_id": 12,
-    "author_id": 26
-  },
-  {
-    "id": 562,
-    "public_date": "12/12/2002",
-    "on_spotify": true,
-    "label_id": 510,
-    "genre_id": 586,
-    "author_id": 260
+    "author_id": 545
   }
 ]
