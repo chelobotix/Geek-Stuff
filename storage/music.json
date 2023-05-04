@@ -1,7 +1,26 @@
 [
-    {
-        "id": 252,
-        "public_date": "12/05/2023",
-        "on_spotify" : true
-    }
+  {
+    "id": 252,
+    "public_date": "12/05/2023",
+    "on_spotify": true,
+    "label_id": 678,
+    "genre_id": 12,
+    "author_id": 26
+  },
+  {
+    "id": 120,
+    "public_date": "12/05/2023",
+    "on_spotify": false,
+    "label_id": 678,
+    "genre_id": 12,
+    "author_id": 26
+  },
+  {
+    "id": 252,
+    "public_date": "12/05/2023",
+    "on_spotify": true,
+    "label_id": 678,
+    "genre_id": 12,
+    "author_id": 26
+  }
 ]
