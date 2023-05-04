@@ -18,5 +18,20 @@
     "id": 881,
     "title": "Open world",
     "color": "Green"
+  },
+  {
+    "id": 893,
+    "title": "Stathistic",
+    "color": "Orange"
+  },
+  {
+    "id": 965,
+    "title": "Balad",
+    "color": "Black"
+  },
+  {
+    "id": 41,
+    "title": "Starcraft",
+    "color": "Gray"
   }
 ]

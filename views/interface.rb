@@ -7,9 +7,8 @@ class Interface
 
   def show_menu
     puts "
------ Welcome to GEEK STUFF -----
-Please choose a number!
-
+----- Welcome to GEEK STUFF -----\n
+    Please choose a number:
     1  List all books
     2  List all music albums
     3  List of games
@@ -19,7 +18,8 @@ Please choose a number!
     7  Add a book
     8  Add a music album
     9  Add a game
-    10 EXIT"
+    10 EXIT\n"
+
     select_option
   end
 

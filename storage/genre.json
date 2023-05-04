@@ -34,5 +34,17 @@
   {
     "id": 507,
     "name": "Historical"
+  },
+  {
+    "id": 274,
+    "name": "Academic"
+  },
+  {
+    "id": 916,
+    "name": "Alternative"
+  },
+  {
+    "id": 235,
+    "name": "Scifi"
   }
 ]

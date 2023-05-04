@@ -8,5 +8,15 @@
     "label_id": 305,
     "genre_id": 507,
     "author_id": 158
+  },
+  {
+    "id": 833,
+    "public_date": "11/11/2020",
+    "archived": false,
+    "cover_state": "Good",
+    "publisher": "Person",
+    "label_id": 893,
+    "genre_id": 274,
+    "author_id": 106
   }
 ]
