@@ -1,52 +1,12 @@
 [
   {
-    "id": 923,
-    "public_date": "2001/01/01",
-    "archived": false,
-    "cover_state": "Bad",
-    "publisher": "NY Editorial",
-    "label_id": 1,
-    "genre_id": 201,
-    "author_id": 260
-  },
-  {
-    "id": 923,
-    "public_date": "2018/08/02",
+    "id": 704,
+    "public_date": "02/02/2011",
     "archived": false,
     "cover_state": "Good",
-    "publisher": "Campus Edit",
-    "label_id": 1,
-    "genre_id": 201,
-    "author_id": 260
-  },
-  {
-    "id": 923,
-    "public_date": "2014/01/12",
-    "archived": false,
-    "cover_state": "Good",
-    "publisher": "Historical Ams",
-    "label_id": 1,
-    "genre_id": 201,
-    "author_id": 260
-  },
-  {
-    "id": 923,
-    "public_date": "01/01/2021",
-    "archived": false,
-    "cover_state": "Good",
-    "publisher": "Me",
-    "label_id": 1,
-    "genre_id": 12,
-    "author_id": 102
-  },
-  {
-    "id": 479,
-    "public_date": "01/01/2021",
-    "archived": false,
-    "cover_state": "Good",
-    "publisher": "Me",
-    "label_id": 120,
-    "genre_id": 586,
-    "author_id": 102
+    "publisher": "Ny editorial",
+    "label_id": 305,
+    "genre_id": 507,
+    "author_id": 158
   }
 ]

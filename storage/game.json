@@ -1,42 +1,12 @@
 [
   {
-    "id": 923,
-    "publish_date": "2001/01/01",
+    "id": 386,
+    "public_date": "09/10/2011",
     "archived": false,
     "multiplayer": true,
-    "last_played_at": "2022/01/01",
-    "label_id": 1,
-    "genre_id": 201,
-    "author_id": 260
-  },
-  {
-    "id": 256,
-    "publish_date": "2001/01/01",
-    "archived": true,
-    "multiplayer": false,
-    "last_played_at": "2022/01/01",
-    "label_id": 1,
-    "genre_id": 12,
-    "author_id": 26
-  },
-  {
-    "id": 256,
-    "publish_date": "2001/01/01",
-    "archived": true,
-    "multiplayer": true,
-    "last_played_at": "2022/01/01",
-    "label_id": 1,
-    "genre_id": 586,
+    "last_played_at": "12/12/2018",
+    "label_id": 881,
+    "genre_id": 874,
     "author_id": 102
-  },
-  {
-    "id": 519,
-    "public_date": "12/01/2001",
-    "archived": false,
-    "multiplayer": true,
-    "last_played_at": "15/05/2015",
-    "label_id": 1,
-    "genre_id": 12,
-    "author_id": 26
   }
 ]

@@ -1,17 +1,27 @@
 [
   {
-      "id": 102,
-      "first_name": "Felipe",
-      "last_name": "Haybar"
+    "id": 102,
+    "first_name": "Felipe",
+    "last_name": "Haybar"
   },
   {
-      "id": 260,
-      "first_name": "Marcelo",
-      "last_name": "Alarcon"
+    "id": 260,
+    "first_name": "Marcelo",
+    "last_name": "Alarcon"
   },
   {
-      "id": 26,
-      "first_name": "Anderson",
-      "last_name": "Canales"
+    "id": 26,
+    "first_name": "Anderson",
+    "last_name": "Canales"
+  },
+  {
+    "id": 158,
+    "first_name": "John",
+    "last_name": "Smith"
+  },
+  {
+    "id": 545,
+    "first_name": "Michael",
+    "last_name": "Jackson"
   }
 ]
