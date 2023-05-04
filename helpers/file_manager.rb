@@ -1,4 +1,5 @@
 require 'json'
+require 'fileutils'
 class FileManager
   attr_reader :filename
 
@@ -22,12 +23,13 @@ class FileManager
     data = data_joinner(new_data)
 
     File.write(path, JSON.pretty_generate(data))
+    puts "#{@filename.capitalize} saved successfully!"
   end
 
   private
 
   def data_joinner(new_data)
     old_data = reader || []
-    (old_data + new_data) || []
+    (old_data << new_data) || []
   end
 end

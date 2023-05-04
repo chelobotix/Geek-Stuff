@@ -5,7 +5,8 @@ class DataManager
   end
 
   def save(data)
-    data.each { |info| @file_storage.writer(info) }
+    @file_storage.writer(data)
+    # data.each { |info| @file_storage.writer(info) }
   end
 
   def list
