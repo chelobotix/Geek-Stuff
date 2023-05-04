@@ -22,5 +22,45 @@
     "label_id": 1,
     "genre_id": 12,
     "author_id": 26
+  },
+  {
+    "id": 97,
+    "public_date": "12/12/2022",
+    "on_spotify": true,
+    "label_id": 900,
+    "genre_id": 12,
+    "author_id": 102
+  },
+  {
+    "id": 275,
+    "public_date": "01/01/2000",
+    "on_spotify": true,
+    "label_id": 900,
+    "genre_id": 12,
+    "author_id": 102
+  },
+  {
+    "id": 315,
+    "public_date": "01/01/1999",
+    "on_spotify": true,
+    "label_id": 811,
+    "genre_id": 12,
+    "author_id": 260
+  },
+  {
+    "id": 134,
+    "public_date": "12/12/2002",
+    "on_spotify": true,
+    "label_id": 811,
+    "genre_id": 12,
+    "author_id": 26
+  },
+  {
+    "id": 562,
+    "public_date": "12/12/2002",
+    "on_spotify": true,
+    "label_id": 510,
+    "genre_id": 586,
+    "author_id": 260
   }
 ]

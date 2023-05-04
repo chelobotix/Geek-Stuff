@@ -9,7 +9,7 @@ require_relative '../classes/music'
 class MusicCustomOptions
   def show
     validator = Validators.new
-    validator.validate_empty_all
+    # validator.validate_empty_all
 
     print 'Enter the public date [YYYY/MM/dd]: '
     public_date = gets.chomp
