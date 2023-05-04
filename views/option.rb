@@ -1,5 +1,6 @@
 require_relative 'music_custom_options'
 require_relative 'book_custom_options'
+require_relative 'game_custom_options'
 
 require_relative '../app'
 
@@ -115,7 +116,9 @@ class Option
     MusicCustomOptions.new.show
   end
 
-  def add_a_game; end
+  def add_a_game
+    GameCustomOptions.new.show
+  end
 
   private
 

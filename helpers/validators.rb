@@ -19,7 +19,7 @@ class Validators
   end
 
   def select_label
-    puts "\nSelect a genre [ID]: "
+    puts "\nSelect a label [ID]: "
     @labels.each { |label| puts "[#{label['id']}], Title: #{label['title']},Color: #{label['color']}" }
     id_title = gets.chomp.to_i
     return id_title if @labels.any? { |label| label['id'] == id_title }
@@ -32,6 +32,16 @@ class Validators
     validate_empty_each('genres', @genres)
     validate_empty_each('authors', @authors)
     validate_empty_each('labels', @labels)
+  end
+
+  def select_author
+    puts "\nSelect an author [ID]: "
+    @authors.each { |author| puts "[#{author['id']}], Name: #{author['first_name']} #{author['last_name']}" }
+    id_author = gets.chomp.to_i
+    return id_author if @authors.any? { |author| author['id'] == id_author }
+
+    puts "\n Please select a valid [ID]"
+    select_author
   end
 
   private
