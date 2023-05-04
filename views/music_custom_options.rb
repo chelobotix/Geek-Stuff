@@ -33,7 +33,7 @@ class MusicCustomOptions
     final_music = ExtraInfo.new(music_album, id_genre, id_label, id_author)
     final_music.add_extra_info
 
-    music_hased = {}.music_to_h(final_music.object)
+    music_hased = Hash.new(final_music.object).music_to_h
     MusicController.new.save(music_hased)
   end
 end

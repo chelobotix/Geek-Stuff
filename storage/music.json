@@ -6,5 +6,13 @@
     "label_id": 1,
     "genre_id": 12,
     "author_id": 26
+  },
+  {
+    "id": 136,
+    "public_date": "01/12/2023",
+    "on_spotify": true,
+    "label_id": 1,
+    "genre_id": 12,
+    "author_id": 26
   }
 ]
