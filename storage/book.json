@@ -28,5 +28,25 @@
     "label_id": 1,
     "genre_id": 201,
     "author_id": 260
+  },
+  {
+    "id": 923,
+    "public_date": "01/01/2021",
+    "archived": false,
+    "cover_state": "Good",
+    "publisher": "Me",
+    "label_id": 1,
+    "genre_id": 12,
+    "author_id": 102
+  },
+  {
+    "id": 479,
+    "public_date": "01/01/2021",
+    "archived": false,
+    "cover_state": "Good",
+    "publisher": "Me",
+    "label_id": 120,
+    "genre_id": 586,
+    "author_id": 102
   }
 ]
