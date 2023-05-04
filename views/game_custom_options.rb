@@ -5,7 +5,7 @@ class GameCustomOptions
     validator.validate_empty_all
 
     print 'Enter the public date [YYYY/MM/dd]: '
-    public_date = gets.chomp
+    # public_date = gets.chomp
 
     print 'Enter [Y]/[N] if the game is multiplayer: '
     is_multiplayer = gets.chomp.downcase
@@ -14,14 +14,14 @@ class GameCustomOptions
       print 'Invalid input. Enter [Y]/[N] if the album is on spotify '
       is_multiplayer = gets.chomp.downcase
     end
-    is_multiplayer = is_multiplayer == 'y' ? true : false
+    # is_multiplayer = is_multiplayer == 'y'
 
     id_genre = validator.select_genre
-    id_label = validator.select_label
-    id_author = validator.select_author
+    # id_label = validator.select_label
+    # id_author = validator.select_author
 
     print 'Enter the last played date [YYYY/MM/dd]: '
-    last_date = gets.chomp
+    # last_date = gets.chomp
 
     puts id_genre
   end
