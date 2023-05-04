@@ -2,6 +2,7 @@ class Hash
   def initialize(object)
     @object = object
   end
+
   def music_to_h
     id = @object.instance_variable_get(:@id)
     public_date = @object.instance_variable_get(:@public_date).strftime('%d/%m/%Y')
@@ -18,6 +19,7 @@ class Hash
       'author_id' => author_id
     }
   end
+
   def book_to_h
     id = object.instance_variable_get(:@id)
     public_date = @object.instance_variable_get(:@public_date).strftime('%d/%m/%Y')
