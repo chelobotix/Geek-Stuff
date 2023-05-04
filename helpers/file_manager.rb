@@ -1,4 +1,5 @@
 require 'json'
+require 'fileutils'
 class FileManager
   attr_reader :filename
 
@@ -28,6 +29,6 @@ class FileManager
 
   def data_joinner(new_data)
     old_data = reader || []
-    (old_data + new_data) || []
+    (old_data << new_data) || []
   end
 end
