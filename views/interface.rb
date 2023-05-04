@@ -18,7 +18,7 @@ Please choose a number!
     6  List all authors
     7  Add a book
     8  Add a music album
-    9 Add a game
+    9  Add a game
     10 EXIT"
     select_option
   end
