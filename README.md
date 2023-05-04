@@ -133,11 +133,10 @@ To fix all Linter error automatically
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Gerson SANCHEZ**
+👤 **Anderson Canales Medina**
 
-- GitHub: [@githubhandle](https://github.com/gealsanchez)
-- Twitter: [@twitterhandle](https://twitter.com/gealsanchez)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gerson-sanchez-88309b57/)
+- GitHub: [@githubhandle](https://github.com/anderCM)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/andersoncanales/)
 
 👤 **Felipe Haybar**
 
