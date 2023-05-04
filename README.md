@@ -135,6 +135,10 @@ To fix all Linter error automatically
 
 👤 **Anderson Canales Medina**
 
+: Anderson Canales Medina
+
+🇧🇴 PERU 💓
+
 - GitHub: [@githubhandle](https://github.com/anderCM)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/andersoncanales/)
 
@@ -195,6 +199,6 @@ I would like to thank the Microverse team for their invaluable resources
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](href="./LICENSE") licensed.
+This project is [MIT](href="LICENSE") licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
