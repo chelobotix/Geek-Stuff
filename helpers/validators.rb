@@ -1,7 +1,11 @@
 require_relative '../controllers/genre'
+require_relative '../controllers/label'
+require_relative '../controllers/author'
 class Validators
   def initialize
     @genres = GenreController.new.list
+    @labels = LabelController.new.list
+    @authors = AuthorController.new.list
   end
 
   def select_genre
@@ -14,10 +18,20 @@ class Validators
     select_genre
   end
 
+  def select_label
+    puts "\nSelect a genre [ID]: "
+    @labels.each { |label| puts "[#{label['id']}], Title: #{label['title']},Color: #{label['color']}" }
+    id_title = gets.chomp.to_i
+    return id_title if @labels.any? { |label| label['id'] == id_title }
+
+    puts "\n Please select a valid [ID]"
+    select_label
+  end
+
   def validate_empty_all
     validate_empty_each('genres', @genres)
-    # validate_empty_each('authors', @author)
-    # validate_empty_each('labels', @label)
+    validate_empty_each('authors', @authors)
+    validate_empty_each('labels', @labels)
   end
 
   private

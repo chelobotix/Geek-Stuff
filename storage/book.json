@@ -1,1 +1,32 @@
-{"book" : []}
+[
+  {
+    "id": 923,
+    "publish_date": "2001/01/01",
+    "archived": false,
+    "cover_state": "Bad",
+    "publisher": "NY Editorial",
+    "label_id": 1,
+    "genre_id": 201,
+    "author_id": 260
+  },
+  {
+    "id": 923,
+    "publish_date": "2018/08/02",
+    "archived": false,
+    "cover_state": "Good",
+    "publisher": "Campus Edit",
+    "label_id": 1,
+    "genre_id": 201,
+    "author_id": 260
+  },
+  {
+    "id": 923,
+    "publish_date": "2014/01/12",
+    "archived": false,
+    "cover_state": "Good",
+    "publisher": "Historical Ams",
+    "label_id": 1,
+    "genre_id": 201,
+    "author_id": 260
+  }
+]
