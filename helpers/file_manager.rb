@@ -23,6 +23,7 @@ class FileManager
     data = data_joinner(new_data)
 
     File.write(path, JSON.pretty_generate(data))
+    puts "#{@filename.capitalize} saved successfully!"
   end
 
   private

@@ -21,7 +21,6 @@ class GameCustomOptions
       print 'Invalid input. Enter [Y]/[N] if the album is on spotify '
       is_multiplayer = gets.chomp.downcase
     end
-    is_multiplayer = is_multiplayer == 'y'
 
     print 'Enter the last played date [YYYY/MM/dd]: '
     last_date = gets.chomp
@@ -30,13 +29,12 @@ class GameCustomOptions
     id_label = validator.select_label
     id_author = validator.select_author
 
-    game = Game.new(public_date, is_multiplayer, last_date)
+    game = Game.new(public_date, is_multiplayer == 'y', last_date)
 
     final_game = ExtraInfo.new(game, id_genre, id_label, id_author)
     final_game.add_extra_info
 
     game_hashed = Hash.new(final_game.object).game_to_h
     GameController.new.save(game_hashed)
-    print 'Game successfully saved!'
   end
 end

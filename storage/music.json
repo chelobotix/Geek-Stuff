@@ -14,5 +14,13 @@
     "label_id": 1,
     "genre_id": 12,
     "author_id": 26
+  },
+  {
+    "id": 375,
+    "public_date": "12/05/2001",
+    "on_spotify": true,
+    "label_id": 1,
+    "genre_id": 12,
+    "author_id": 26
   }
 ]
