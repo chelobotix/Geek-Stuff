@@ -43,7 +43,9 @@ class Option
     end
     puts '----- Books -----'
     @books.list.each do |book|
-      puts "[#{book['id']}] Date: #{book['public_date']}, Publisher: #{book['publisher']}, Cover State: #{book['cover_state']},
+      puts "[#{book['id']}] Date: #{book['public_date']},
+      Publisher: #{book['publisher']},
+      Cover State: #{book['cover_state']},
       Author:#{get_author_name(book)},
       Genre: #{get_genre_name(book)},
       Label: #{get_label_title(book)}"
