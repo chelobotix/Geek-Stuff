@@ -53,6 +53,7 @@ After you're finished please remove all the comments and instructions!
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+- [👥 Video](#video)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -128,6 +129,11 @@ In the project directory, you can run:
 To fix all Linter error automatically
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## Video <a name="video"></a>
+- Wtch video: [here](https://drive.google.com/file/d/10s2jGPkA8ghT4T_9bU5OVB7AqY3LrUrx/view?usp=sharing)
 
 <!-- AUTHORS -->
 
