@@ -1,0 +1,18 @@
+[
+  {
+    "id": 594,
+    "public_date": "12/12/2018",
+    "on_spotify": true,
+    "label_id": 900,
+    "genre_id": 12,
+    "author_id": 545
+  },
+  {
+    "id": 90,
+    "public_date": "30/10/2019",
+    "on_spotify": true,
+    "label_id": 965,
+    "genre_id": 916,
+    "author_id": 471
+  }
+]

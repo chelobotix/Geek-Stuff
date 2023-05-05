@@ -1,0 +1,50 @@
+[
+  {
+    "id": 12,
+    "name": "Rock"
+  },
+  {
+    "id": 586,
+    "name": "Cumbia"
+  },
+  {
+    "id": 912,
+    "name": "Pop"
+  },
+  {
+    "id": 201,
+    "name": "Hindi"
+  },
+  {
+    "id": 433,
+    "name": "Adventure"
+  },
+  {
+    "id": 329,
+    "name": "Tecno"
+  },
+  {
+    "id": 874,
+    "name": "Rpg"
+  },
+  {
+    "id": 343,
+    "name": "2d"
+  },
+  {
+    "id": 507,
+    "name": "Historical"
+  },
+  {
+    "id": 274,
+    "name": "Academic"
+  },
+  {
+    "id": 916,
+    "name": "Alternative"
+  },
+  {
+    "id": 235,
+    "name": "Scifi"
+  }
+]

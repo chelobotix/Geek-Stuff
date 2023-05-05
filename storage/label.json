@@ -1,0 +1,37 @@
+[
+  {
+    "id": 900,
+    "title": "Gift",
+    "color": "blue"
+  },
+  {
+    "id": 305,
+    "title": "Retro",
+    "color": "Gold"
+  },
+  {
+    "id": 811,
+    "title": "New",
+    "color": "Sky blue"
+  },
+  {
+    "id": 881,
+    "title": "Open world",
+    "color": "Green"
+  },
+  {
+    "id": 893,
+    "title": "Stathistic",
+    "color": "Orange"
+  },
+  {
+    "id": 965,
+    "title": "Balad",
+    "color": "Black"
+  },
+  {
+    "id": 41,
+    "title": "Starcraft",
+    "color": "Gray"
+  }
+]

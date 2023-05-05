@@ -1,0 +1,22 @@
+[
+  {
+    "id": 386,
+    "public_date": "09/10/2011",
+    "archived": false,
+    "multiplayer": true,
+    "last_played_at": "12/12/2018",
+    "label_id": 881,
+    "genre_id": 874,
+    "author_id": 102
+  },
+  {
+    "id": 259,
+    "public_date": "10/02/2017",
+    "archived": false,
+    "multiplayer": true,
+    "last_played_at": "03/03/2023",
+    "label_id": 41,
+    "genre_id": 235,
+    "author_id": 296
+  }
+]
