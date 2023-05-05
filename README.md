@@ -133,7 +133,7 @@ To fix all Linter error automatically
 <!-- AUTHORS -->
 
 ## Video <a name="video"></a>
-- Wtch video: [here](https://drive.google.com/file/d/10s2jGPkA8ghT4T_9bU5OVB7AqY3LrUrx/view?usp=sharing)
+- Wtch video: [here](https://drive.google.com/file/d/1XiX8peBo5FD1cJ-ATO5Mu3rk9uPMgnrH/view?usp=sharing)
 
 <!-- AUTHORS -->
 
